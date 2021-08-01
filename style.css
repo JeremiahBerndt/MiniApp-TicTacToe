@@ -1,0 +1,31 @@
+h1 {
+  color: #36846b;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  background-color:beige;
+}
+
+section {
+  height: 10em;
+  width: 39em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  margin-bottom: 2em;
+
+}
+
+section > div {
+  font-size: 7em;
+  padding: auto;
+  background-color: #36846b;
+  /* border: solid #d68438; */
+  color: #f1b24b;
+  line-height: 166px;
+  text-align: center;
+  /* height: 100%; */
+}
